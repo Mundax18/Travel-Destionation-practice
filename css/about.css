@@ -1,0 +1,79 @@
+body {
+
+    background: linear-gradient(30deg, rgb(163, 43, 43), rgb(124, 36, 171));
+    
+}
+
+
+#page-logo a {
+    /* Logo Travel destination */
+color: rgb(247, 247, 247);
+
+}
+
+header a{
+    color: rgb(232, 233, 208);
+    
+}
+
+header nav a:hover{
+    /* Nav bar Destinatuin and About */
+background-color: rgb(47, 182, 195);
+
+}
+
+
+#group-picture {
+    /* Image Container */
+        height: 600px;
+        width: 500px
+    
+}
+
+.picture {
+position: relative;
+
+}
+
+.picture img {
+/* Postion of image*/
+margin-top: 100px;
+    position: absolute;
+    left: 110%;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+ h2 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(5, 195, 87);
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+
+}
+
+ p {
+
+text-align: justify;
+font-weight: lighter;
+color: rgb(246, 244, 244);
+font-family: "robotic", "Quicksand";
+font-size: 14px;
+text-align: justify;
+padding: 0px 5px 0px 5px;
+
+}
+
+footer ul {
+    justify-content: center;
+    
+}
+
+li{
+    list-style: none;
+}

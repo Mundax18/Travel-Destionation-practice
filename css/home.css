@@ -1,0 +1,123 @@
+#top {
+    /* Background image for the 1st section*/
+    height: 900px;
+
+    background-image: url("/images/highlight-places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#top-stuff {
+
+    /* The Dive/ Grey Box in the 1st section And Top Section*/
+
+    width: 900px;
+
+    background-color: rgb(51, 45, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(61, 57, 55);
+    border-radius: 8px;
+
+    padding: 50px 0px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+
+
+}
+
+#top-stuff h1 {
+
+
+    color: aliceblue;
+
+    text-transform: uppercase;
+    margin: 0;
+
+    font-size: 20px;
+    font-family:"Roboto";
+    font-weight: bolder;
+}
+
+#top-stuff p{
+    color: aliceblue;
+
+    font-weight: 300;
+    font-size: 15px;
+}
+#top-stuff a {
+
+    text-decoration: none;
+    color: rgb(47, 177, 91);
+
+    font-weight: 600;
+    padding: 2px 4px;
+
+    box-shadow: 2px 4px 8px;
+    border-radius: 6px;
+    background-color: #b1ccd5;
+}
+
+#top-stuff a:hover {
+/* For View Destination*/
+
+    text-decoration: underline;
+background-color: #300b7b;
+} 
+
+#bottom-destinations{
+/* Moving the 3 pictures at the bottom*/
+
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px; 
+}
+
+.bottom-destinations{
+list-style: none;
+    margin: 0 20px;
+}
+
+
+#bottom { 
+/* Bottom Section highlight destination*/
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding: 24px;
+    background: linear-gradient(180deg,rgb(85, 192, 19),rgb(202, 243, 240));
+
+
+}
+
+
+.bottom-destinations p{
+
+/*Paragrah for the words under image bo USA etc*/
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.bottom-destinations strong {
+/* Strong for paragraph*/
+
+    color: rgb(157, 8, 80);
+}
+
+.bottom-destinations img{
+
+    /*Images for Hightlight destionation at the 2nd section setting the fitting*/
+
+    height: 200px;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 2px 4px 8px rgb(61, 67, 65);
+    object-fit: cover;
+}
+
